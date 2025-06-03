@@ -53,7 +53,7 @@ export default function SalonLanding() {
                     Transform Your Look at <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">Hairspray on Main Street</span>
                   </h1>
                   <p className="text-lg text-gray-600 md:text-xl max-w-2xl">
-                    Experience luxury hair care and styling with our expert stylists. From cuts to colors, we'll help
+                    Experience luxury hair care and styling with our expert stylists. From cuts to colors, we will help
                     you look and feel your absolute best.
                   </p>
                 </div>
@@ -229,7 +229,7 @@ export default function SalonLanding() {
                 What Our Clients Say
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Don't just take our word for it. Here's what our satisfied customers have to say about their experience.
+                Do not just take our word for it. Here is what our satisfied customers have to say about their experience.
               </p>
             </div>
 
@@ -289,7 +289,7 @@ export default function SalonLanding() {
                 Ready for Your Hair Transformation?
               </h2>
               <p className="text-lg text-purple-100">
-                Book your appointment today and let our expert stylists help you achieve the look you've always wanted.
+                Book your appointment today and let our expert stylists help you achieve the look you have always wanted.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
