@@ -77,13 +77,13 @@ export default function SalonLanding() {
                 </div>
               </div>
 
-              <div className="relative">
+              <div className="relative flex justify-center items-center">
                 <Image
                   src="https://static.wixstatic.com/media/4ea72d_2747161688e6493f8ec97c82fbd2304a~mv2.jpg/v1/crop/x_503,y_0,w_2497,h_1323/fill/w_1466,h_720,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/PAN1_edited.jpg"
                   alt="Salon interior"
                   width={500}
                   height={600}
-                  className="rounded-2xl shadow-2xl"
+                  className="rounded-2xl shadow-2xl object-cover"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
                   <div className="flex items-center space-x-2">
@@ -144,13 +144,13 @@ export default function SalonLanding() {
                 <Button className="bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600">Learn More About Us</Button>
               </div>
 
-              <div className="relative">
+              <div className="relative flex justify-center items-center">
                 <Image
                   src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4no5thHqLDIhUPy7Dta74kD4M4z4b7Hf2s2E52SDSYs_MxqldOtkVmaoR1zXmbXKb1B8vINC6SnqHkwbmb8OBqoteU7tYdD4eMTcsSqYdQpux1-fNx5cbTDVGtFwLT-wBklyv2Lc=s1360-w1360-h1020-rw"
                   alt="Salon team"
                   width={500}
                   height={500}
-                  className="rounded-2xl shadow-xl"
+                  className="rounded-2xl shadow-xl object-cover"
                 />
               </div>
             </div>
@@ -194,7 +194,7 @@ export default function SalonLanding() {
                 },
               ].map((service, index) => (
                 <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-                  <div className="relative h-100">
+                  <div className="relative h-48 flex justify-center items-center">
                     <Image
                       src={service.image}
                       alt={service.title}
