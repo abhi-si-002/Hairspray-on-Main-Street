@@ -9,7 +9,7 @@ export default function SalonLanding() {
     <div className="flex flex-col min-h-screen">
       {/* Navbar */}
       <header className="sticky top-0 z-50 border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-        <div className="container mx-auto flex h-16 items-center justify-between px-6 md:px-8">
+        <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             {/* <Scissors className="h-6 w-6 text-purple-600" /> */}
             <span className="text-xl font-bold text-gray-900">Hairspray on Main Street</span>
@@ -45,7 +45,7 @@ export default function SalonLanding() {
       <main className="flex-1">
         {/* Hero Section */}
         <section id="home" className="relative py-20 md:py-32 bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">
-          <div className="container mx-auto px-6 md:px-8">
+          <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-6">
                 <div className="space-y-4">
@@ -103,7 +103,7 @@ export default function SalonLanding() {
 
         {/* About Section */}
         <section id="about" className="py-20 md:py-32">
-          <div className="container mx-auto px-6 md:px-8">
+          <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid gap-12 lg:grid-cols-2 items-center mx-auto">
               <div className="space-y-6">
                 <div className="space-y-4">
@@ -159,7 +159,7 @@ export default function SalonLanding() {
 
         {/* Services Section */}
         <section id="services" className="py-20 md:py-32 bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">
-          <div className="container mx-auto px-6 md:px-8">
+          <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center space-y-4 mb-12">
               <div className="inline-block rounded-lg bg-purple-100 px-3 py-1 text-sm text-purple-600 font-medium">
                 Our Services
@@ -220,7 +220,7 @@ export default function SalonLanding() {
 
         {/* Testimonials Section */}
         <section id="testimonials" className="py-20 md:py-32">
-          <div className="container mx-auto px-6 md:px-8">
+          <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center space-y-4 mb-12">
               <div className="inline-block rounded-lg bg-purple-100 px-3 py-1 text-sm text-purple-600 font-medium">
                 Testimonials
@@ -283,7 +283,7 @@ export default function SalonLanding() {
 
         {/* CTA Section */}
         <section className="py-20 md:py-32 bg-gradient-to-r from-purple-600 to-pink-500">
-          <div className="container mx-auto px-6 md:px-8 text-center">
+          <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
             <div className="space-y-6 max-w-3xl mx-auto">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-white">
                 Ready for Your Hair Transformation?
@@ -311,7 +311,7 @@ export default function SalonLanding() {
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-6 md:px-8">
+        <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
